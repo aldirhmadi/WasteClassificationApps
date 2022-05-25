@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Waste Classification Apps</string>
+    <string name="classification">Klasifikasi Sampah</string>
+    <string name="organik">Organik</string>
+    <string name="desc_organik">Sampah yang berasal dari makhluk hidup</string>
+    <string name="anorganik">Anorganik</string>
+    <string name="desc_anorganik">Sampah yang sulit untuk teruirai</string>
+    <string name="b3">B3</string>
+    <string name="desc_b3">Bahan Berbahaya Beracun</string>
+    <string name="tv_tips"><![CDATA[Info & Tips Cara Memilah Sampah]]></string>
+    <string name="splash_desc">know your waste!</string>
+</resources>
