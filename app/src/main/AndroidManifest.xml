@@ -4,6 +4,7 @@
     package="com.example.wasteclassificationapps">
 
     <uses-feature android:name="android.hardware.camera" />
+
     <uses-permission android:name="android.permission.CAMERA" />
 
     <application
@@ -16,6 +17,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WasteClassificationApps"
         tools:targetApi="31">
+        <activity
+            android:name=".activity.B3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.AnorganikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OrganikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ResultCamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.OptionsActivity"
+            android:exported="false" />
         <activity
             android:name=".activity.CameraActivity"
             android:exported="false" />
@@ -30,7 +46,7 @@
         </activity>
         <activity
             android:name=".activity.MainActivity"
-            android:exported="false"></activity>
+            android:exported="false" />
     </application>
 
 </manifest>

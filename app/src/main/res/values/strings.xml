@@ -4,9 +4,16 @@
     <string name="organik">Organik</string>
     <string name="desc_organik">Sampah yang berasal dari makhluk hidup</string>
     <string name="anorganik">Anorganik</string>
-    <string name="desc_anorganik">Sampah yang sulit untuk teruirai</string>
+    <string name="desc_anorganik">Sampah yang sulit untuk terurai</string>
     <string name="b3">B3</string>
     <string name="desc_b3">Bahan Berbahaya Beracun</string>
     <string name="tv_tips"><![CDATA[Info & Tips Cara Memilah Sampah]]></string>
     <string name="splash_desc">know your waste!</string>
+    <string name="options">Options</string>
+    <string name="sampah_organik">Sampah Organik</string>
+    <string name="sampah_anorganik">Sampah Anorganik</string>
+    <string name="sampah_b3">Sampah B3</string>
+    <string name="search_anorganik">Cari sampah anorganik</string>
+    <string name="search_organik">Cari sampah organik</string>
+    <string name="search_b3">Cari sampah B3</string>
 </resources>

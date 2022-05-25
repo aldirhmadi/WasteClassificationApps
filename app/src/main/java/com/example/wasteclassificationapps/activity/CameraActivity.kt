@@ -1,5 +1,6 @@
 package com.example.wasteclassificationapps.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -55,7 +56,7 @@ class CameraActivity : AppCompatActivity() {
                     override fun onImageSaved(output: ImageCapture.OutputFileResults) {
                         Toast.makeText(
                             this@CameraActivity,
-                            "Berhasil mengambil gambar",
+                            "Berhasil mengambil gambar.",
                             Toast.LENGTH_SHORT
                         ).show()
                     }
@@ -92,4 +93,5 @@ class CameraActivity : AppCompatActivity() {
             }
         }, ContextCompat.getMainExecutor(this))
     }
+
 }

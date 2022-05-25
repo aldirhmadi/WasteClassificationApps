@@ -5,9 +5,12 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
+import com.example.wasteclassificationapps.R
 import com.example.wasteclassificationapps.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -47,6 +50,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.title = " "
 
         if (!allPermissionsGranted()) {
             ActivityCompat.requestPermissions(
@@ -55,8 +59,37 @@ class MainActivity : AppCompatActivity() {
                 REQUEST_CODE_PERMISSIONS
             )
         }
+        binding.imgDetailOrganik.setOnClickListener {
+            val intent = Intent(this@MainActivity, OrganikActivity::class.java)
+            startActivity(intent)
+        }
+        binding.imgDetailAnorganik.setOnClickListener {
+            val intent = Intent(this@MainActivity, AnorganikActivity::class.java)
+            startActivity(intent)
+        }
+        binding.imgDetailB3.setOnClickListener {
+            val intent = Intent(this@MainActivity, B3Activity::class.java)
+            startActivity(intent)
+        }
 
         binding.btnCam.setOnClickListener { startCameraX() }
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.option_menu, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId) {
+            R.id.options ->{
+                Intent(this, OptionsActivity::class.java).also {
+                    startActivity(it)
+                }
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
     private fun startCameraX() {
