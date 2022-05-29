@@ -16,4 +16,9 @@
     <string name="search_anorganik">Cari sampah anorganik</string>
     <string name="search_organik">Cari sampah organik</string>
     <string name="search_b3">Cari sampah B3</string>
+    <string name="app_version">App Version</string>
+    <string name="version">1.1.0</string>
+    <string name="change_theme">Change Theme</string>
+    <string name="exit_app">Exit App</string>
+    <string name="switch_theme">Change</string>
 </resources>
