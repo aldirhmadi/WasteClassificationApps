@@ -299,39 +299,52 @@
                 android:orientation="horizontal">
 
                 <ImageButton
+                    android:id="@+id/btn_img_tips1"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/img_t1" />
+                    android:src="@drawable/img_tips1" />
 
                 <ImageButton
+                    android:id="@+id/btn_img_tips2"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="16dp"
-                    android:src="@drawable/img_t2" />
+                    android:src="@drawable/img_tips2" />
 
                 <ImageButton
+                    android:id="@+id/btn_img_tips3"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="16dp"
-                    android:src="@drawable/img_t3" />
+                    android:src="@drawable/img_tips3" />
 
                 <ImageButton
+                    android:id="@+id/btn_img_tips4"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="16dp"
-                    android:src="@drawable/img_t4" />
+                    android:src="@drawable/img_tips4" />
 
                 <ImageButton
+                    android:id="@+id/btn_img_tips5"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="16dp"
-                    android:src="@drawable/img_t5" />
+                    android:src="@drawable/img_tips5" />
 
                 <ImageButton
+                    android:id="@+id/btn_img_tips6"
                     android:layout_width="150dp"
                     android:layout_height="100dp"
                     android:layout_marginLeft="16dp"
-                    android:src="@drawable/img_t7" />
+                    android:src="@drawable/img_tips6" />
+
+                <ImageButton
+                    android:id="@+id/btn_img_tips7"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="16dp"
+                    android:src="@drawable/img_tips7" />
 
             </LinearLayout>
 

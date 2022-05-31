@@ -12,6 +12,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.wasteclassificationapps.R
 import com.example.wasteclassificationapps.databinding.ActivityMainBinding
+import com.example.wasteclassificationapps.infoTips.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -69,6 +70,35 @@ class MainActivity : AppCompatActivity() {
         }
         binding.imgDetailB3.setOnClickListener {
             val intent = Intent(this@MainActivity, B3Activity::class.java)
+            startActivity(intent)
+        }
+
+        binding.btnImgTips1.setOnClickListener {
+            val intent = Intent(this@MainActivity, DeatilTips1Activity::class.java)
+            startActivity(intent)
+        }
+        binding.btnImgTips2.setOnClickListener {
+            val intent = Intent(this@MainActivity, DetailTips2Activity::class.java)
+            startActivity(intent)
+        }
+        binding.btnImgTips3.setOnClickListener {
+            val intent = Intent(this@MainActivity, DetailTips3Activity::class.java)
+            startActivity(intent)
+        }
+        binding.btnImgTips4.setOnClickListener {
+            val intent = Intent(this@MainActivity, DetailTips4Activity::class.java)
+            startActivity(intent)
+        }
+        binding.btnImgTips5.setOnClickListener {
+            val intent = Intent(this@MainActivity, DetailTips5Activity::class.java)
+            startActivity(intent)
+        }
+        binding.btnImgTips6.setOnClickListener {
+            val intent = Intent(this@MainActivity, DetailTips6Activity::class.java)
+            startActivity(intent)
+        }
+        binding.btnImgTips7.setOnClickListener {
+            val intent = Intent(this@MainActivity, DetailTips7Activity::class.java)
             startActivity(intent)
         }
 

@@ -18,6 +18,27 @@
         android:theme="@style/Theme.WasteClassificationApps"
         tools:targetApi="31">
         <activity
+            android:name=".infoTips.DetailTips7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infoTips.DetailTips6Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infoTips.DetailTips5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infoTips.DetailTips4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infoTips.DetailTips3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infoTips.DetailTips2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".infoTips.DeatilTips1Activity"
+            android:exported="false" />
+        <activity
             android:name=".activity.B3Activity"
             android:exported="false" />
         <activity
